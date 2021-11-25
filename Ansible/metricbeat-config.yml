@@ -1,0 +1,18 @@
+
+#============================== Kibana =====================================
+
+# Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
+# This requires a Kibana endpoint configuration.
+setup.kibana:
+  host: "10.1.0.4:5601"
+
+
+
+
+
+#-------------------------- Elasticsearch output ------------------------------
+output.elasticsearch:
+  # Array of hosts to connect to.
+  hosts: ["10.1.0.4:9200"]
+  username: "elastic"
+  password: "changeme"
