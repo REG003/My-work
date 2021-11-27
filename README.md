@@ -60,7 +60,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | WEB-3       |  Webserver   | 10.0.0.5   | Linux            |
 | Elk Server  |  Monitoring  | 10.1.0.0   | Linux            |
 | Work Station|Access Control|external IP | Git bash         |
-|
+
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
@@ -88,7 +88,7 @@ A summary of the access policies in place can be found in the table below.
 | WEB-2         |  No		              |  10.0.0.10 on ssh22		               |
 | ELK Server    |  No		              |  Workstation Public IP using TCP 5601|
 | Load Balancer |  No                 |  Workstation Public IP using HTTP 80 |
-|
+
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
@@ -217,9 +217,9 @@ Which file is the playbook?
 
 Where do you copy it?
 
-- all host
+- All host
 
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 -update host file 
 Which URL do you navigate to in order to check that the ELK server is running
 -  http://0.0.0.0:5601/app/kibana
@@ -242,4 +242,3 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 |sudo docker start                                     | start the specified             |
 |sudo docker run -ti cybersecurity/ansible bash        | run and create docker image     |
 |sudo docker pull cybersecurity/ansible                | download the docker file        |
-|
